@@ -1,0 +1,1301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css file link -->
+    <script src="asset/jQuery/jquery-3.7.1.min.js"></script>
+
+    <link rel="stylesheet" href="asset/css/hidden-page.css">
+
+    <!-- google font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&family=Jost:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome link  -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- css link -->
+
+    <link rel="stylesheet" href="asset/css/owl.theme.default.min.css">
+
+    <!-- css link -->
+
+    <link rel="stylesheet" href="asset/css/owl.carousel.min.css">
+
+    <!-- jquery link -->
+
+    <script src="asset/jQuery/owl.carousel.min.js"></script>
+
+    <!-- jquery link -->
+
+
+    <script>
+        $(document).ready(function () {
+            $(".top-strong").click(function () {
+                $("#top-strong").toggle();
+            });
+        });
+        $(document).ready(function () {
+            $(".buttom-strong").click(function () {
+                $(".bottom").toggle();
+            });
+        });
+
+        $(document).ready(function () {
+            var $scrollToTopButton = $('.slider-icon');
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 800) {
+                    $scrollToTopButton.fadeIn();
+                }
+                else {
+                    $scrollToTopButton.fadeOut();
+                }
+            });
+
+            $scrollToTopButton.click(function () {
+                $('html, body').animate({ scrollTop: 0 }, 800);
+                return false;
+            });
+        });
+
+
+
+
+    </script>
+
+</head>
+
+<body>
+
+    <div class="slider-icon">
+        <a href="#">
+            <i class="fa-solid fa-angle-up"></i>
+        </a>
+    </div>
+
+
+    <div class="header-nav">
+        <div class="container">
+            <div class="header-nav-row">
+                <div class="header-nav-inner">
+                    <div class="col-left-nav">
+                        <strong class="top-strong">
+                            <a href="#">
+                                <span>Engilsh </span>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                        </strong>
+                        |
+                        <strong class="buttom-strong">
+                            <a href="#">
+                                <span>USD - US Dollar</span>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </a>
+                        </strong>
+                    </div>
+                    <div class="col-right-nav">
+                        <ul>
+                            <li><span> Default welcome msg!</span></li>
+                            <li class="img-top"><a href="Wishlist.html"><i class="fa-regular fa-heart"></i>
+                                    Wishlist </a></li>
+                            <li class="img-center"><a href="Wishlist.html"><i class="fa-regular fa-user"></i> Sign In
+                                </a></li>
+                            <li class="text-buttom"><a href="#">+Create an Account</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- header nav border buttom -->
+    <div class="border"></div>
+    <div class="container">
+        <div id="top-strong">
+            <ul>
+                <li>French</li>
+                <li>German</li>
+                <li>Spain</li>
+                <li>ltaly</li>
+                <li>Protuguese</li>
+            </ul>
+        </div>
+    </div>
+    <div class="connn">
+        <div class="container">
+            <div class="bottom">
+                <p class="eur"> EUR - Euro </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- header content blog stat -->
+    <div class="header-content">
+        <div class="container">
+            <div class="header-content-inner">
+                <div class="img-top">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="header-logo-left">
+                    <img src="asset/new pictures/english-footer-logo.png" alt="">
+                </div>
+                <div class="header-img-right">
+                    <div class="call-text">
+                        <div class="top-i">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="top-text">
+                            <p>
+                                Call Us Now
+                            </p>
+                            <span>
+                                (123) 4567-890
+                            </span>
+                        </div>
+                    </div>
+                    <div class="call-text">
+                        <div class="buttom-i">
+                            <a href="#"> <i class="fa-solid fa-bag-shopping"></i></a>
+                        </div>
+                        <div class="buttom-text">
+                            <p>
+                                My Cart
+                            </p>
+                            <span>
+                                Itam(s)
+                            </span>
+                        </div>
+                    </div>
+                    <div class="diss">
+                        0
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- sections nav-sections stat -->
+
+
+    <div class="sections-nav-blog">
+        <div class="container">
+            <div class="sections-nav-blog-inner">
+                <ul class="sections-blog">
+                    <li><a class="home" href="hidden.html">Home</a></li>
+                    <li class="row-submenu">
+                        <a href="#">
+                            <span> Pages </span>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </a>
+                        <div class="text-submenu">
+                            <ul class="text-ul">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">4Q4</a></li>
+                                <li><a href="#">Pricing</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="Fashion-item">
+                        <a href="#">
+                            <span>Shop</span>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </a>
+                        <div class="item-row">
+                            <div class="text-submenu">
+                                <div class="row-text">
+                                    <span>Fashion</span>
+                                    <ul class="submenu-text">
+                                        <li><a href="#">Men</a></li>
+                                        <li><a href="#">Women</a></li>
+                                        <li><a href="#">Kids</a></li>
+                                        <li><a href="#">Accessories</a></li>
+                                    </ul>
+                                </div>
+                                <div class="row-text">
+                                    <span>Furniture</span>
+                                    <ul class="submenu-text">
+                                        <li><a href="#">Living RoomSale</a></li>
+                                        <li><a href="#">Kitchen Hot</a></li>
+                                        <li><a href="#">Office</a></li>
+                                        <li><a href="#">Home Decor</a></li>
+                                    </ul>
+                                </div>
+                                <div class="row-text">
+                                    <span> Jewellery</span>
+                                    <ul class="submenu-text">
+                                        <li><a href="#">Rings</a></li>
+                                        <li><a href="#">Bracelets</a></li>
+                                        <li><a href="#">Necklaces</a></li>
+                                        <li><a href="#">Wedding Bands</a></li>
+                                    </ul>
+                                </div>
+                                <div class="row-text">
+                                    <span> Autoparts</span>
+                                    <ul class="submenu-text">
+                                        <li><a href="#">Engine Parts</a></li>
+                                        <li><a href="#">Exhaust Parts</a></li>
+                                        <li><a href="#">Body Parts</a></li>
+                                        <li><a href="#">Brakeparts </a></li>
+                                    </ul>
+                                </div>
+                                <img src="asset/new pictures/menu-1.png" alt="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="Mobile-byy">
+                        <a href="#">
+                            <span> Electronics</span>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </a>
+                        <div class="Mobile-row">
+                            <div class="Mobile-item">
+                                <div class="row-text">
+                                    <span>Mobiles</span>
+                                    <ul class="item">
+                                        <li><a href="#">Apple </a></li>
+                                        <li><a href="#"> Samsung</a></li>
+                                        <li><a href="#">Xiaomi</a></li>
+                                        <li><a href="#">BlackBerry</a></li>
+                                        <li><a href="#">Lenovo</a></li>
+                                    </ul>
+                                </div>
+                                <div class="row-text">
+                                    <span>Camera</span>
+                                    <ul class="item">
+                                        <li><a href="#">Lenses</a></li>
+                                        <li><a href="#">DSLR</a></li>
+                                        <li><a href="#">Tripods</a></li>
+                                        <li><a href="#">Accessories</a></li>
+                                    </ul>
+                                </div>
+                                <img src="asset/new pictures/menu-2.png" alt="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="Sports-line"><a href="#">
+                            <span>Sports & Books </span>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </a>
+                        <div class="books-row">
+                            <div class="books-item">
+                                <ul class="breck">
+                                    <li class="breck-down">
+                                        <a href="#">
+                                            <span>Sports</span>
+                                            <i class="fa-solid fa-angle-down"></i>
+                                        </a>
+                                        <ul class="ul-hover">
+                                            <li><a href="#">Cricket</a></li>
+                                            <li><a href="#">Badminton</a></li>
+                                            <li><a href="#">Football</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="breck-down"><a href="#">
+                                            <span>books</span>
+                                            <i class="fa-solid fa-angle-down"></i>
+                                        </a>
+                                        <ul class="li-hover">
+                                            <li><a href="#">Academics</a></li>
+                                            <li><a href="#"> Literature</a></li>
+                                            <li><a href="#">Business</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="breck-down">
+                                        <a href="#">Accessories</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#">Sale</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- slider-wrapper stat -->
+
+
+    <div class="slider-wrapper-main">
+        <div class="slider-wrapper-inner">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="banner_item">
+                        <div class="banner_img">
+                            <h4><a href="#"><img src="asset/new pictures/slide1.jpg" alt=""></a></h4>
+                        </div>
+                        <div class="banner_content2">
+                            <h2>
+                                Up to <span>40%</span><br>
+                                <strong>DISCOUNT</strong>
+                                <br>
+                                on Fashion <br>
+                                Brands
+                            </h2>
+                            <div class="bottom">
+                                <a href="#">SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="banner_img">
+                        <h4><a href="#"><img src="asset/new pictures/slide2.jpg" alt=""></a></h4>
+                    </div>
+                    <div class="banner_content">
+                        <h2>
+                            Up to <span>40%</span><br>
+                            <strong>DISCOUNT</strong>
+                            <br>
+                            on Fashion <br>
+                            Brands
+                        </h2>
+                        <div class="bottom">
+                            <a href="#">SHOP NOW</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="banner_img">
+                        <h4><a href="#"><img src="asset/new pictures/slide3.jpg" alt=""></a></h4>
+                    </div>
+                    <div class="banner_content">
+                        <h2>
+                            Up to <span>40%</span><br>
+                            <strong>DISCOUNT</strong>
+                            <br>
+                            on Fashion <br>
+                            Brands
+                        </h2>
+                        <div class="bottom">
+                            <a href="#">SHOP NOW</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            autoplay: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                },
+                1500: {
+                    items: 1
+                }
+            }
+        })
+    </script>
+
+
+
+    <!-- home-services stat -->
+
+
+    <div class="home-services">
+        <div class="container">
+            <div class="itme-row">
+                <div class="itme">
+                    <div class="itme-inner">
+                        <div class="icon">
+                            <i class="fa-solid fa-headphones"></i>
+                        </div>
+                        <div class="text">
+                            <span>24/7 ONLINE <i class="sup"> SUPPORT </i></span>
+                            <P>Trained stufs are ready to <i class="help">help</i> <span class="inn">24/7</span> </P>
+                        </div>
+                    </div>
+                </div>
+                <div class="itme">
+                    <div class="itme-inner">
+                        <div class="icon">
+                            <i class="fa-regular fa-square-check"></i>
+                        </div>
+                        <div class="text">
+                            <span>MONEY BACK <i class="text-i"> GUARANTEE </i></span>
+                            <p>100% money back i guarantee </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="itme">
+                    <div class="itme-inner">
+                        <div class="icon">
+                            <i class="fa-solid fa-truck"></i>
+                        </div>
+                        <div class="text">
+                            <span>FREE SHOPPING & <i class="i"> RETURN </i></span>
+                            <P>Free shipping on all orders <i class="over"> over</i> <i> $100 </i></P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Category blog stat -->
+
+    <div class="Category-blog-main">
+        <div class="container">
+            <div class="Category-blog-inner">
+                <div class="Category-title">
+                    <p>Shop By
+                        <span>Category</span>
+                    </p>
+                </div>
+                <div class="itme-inner">
+                    <div class="Category-content">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <h4>
+                                    <div class="item-row-img">
+                                        <div class="item-row">
+                                            <a href="#"><img src="asset/new pictures/product1_2_2.jpg" alt="">
+                                                <span class="span-hover">Kids</span>
+                                                <div class="text">
+                                                    <span class="hover-hide">Kids</span>
+                                                    <span class="hover-show">Explore Category</span>
+                                                </div>
+                                                <div class="hoverly"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </h4>
+                            </div>
+                            <div class="item">
+                                <h4>
+                                    <div class="item-row-img">
+                                        <div class="item-row">
+                                            <a href="#"><img src="asset/new pictures/product4_1_1_1.jpg" alt="">
+                                                <span class="span-hover">Men</span>
+                                                <div class="text">
+                                                    <span class="hover-hide">Men</span>
+                                                    <span class="hover-show">Explore Category</span>
+                                                </div>
+                                                <div class="hoverly"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </h4>
+                            </div>
+                            <div class="item">
+                                <h4>
+                                    <div class="item-row-img">
+                                        <div class="item-row">
+                                            <a href="#"><img src="asset/new pictures/product8_1_1.jpg" alt="">
+                                                <span class="span-hover">Women</span>
+                                                <div class="text">
+                                                    <span class="hover-hide">Women</span>
+                                                    <span class="hover-show">Explore Category</span>
+                                                </div>
+                                                <div class="hoverly"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </h4>
+                            </div>
+                            <div class="item">
+                                <h4>
+                                    <div class="item-row-img">
+                                        <div class="item-row">
+                                            <a href="#"><img src="asset/new pictures/product10_1_1_1.jpg" alt="">
+                                                <span class="span-hover">Living Room</span>
+                                                <div class="text">
+                                                    <span class="hover-hide">Living Room</span>
+                                                    <span class="hover-show">Explore Category</span>
+                                                </div>
+                                                <div class="hoverly"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </h4>
+                            </div>
+                            <div class="item">
+                                <h4>
+                                    <div class="item-row-img">
+                                        <div class="item-row">
+                                            <a href="#"><img src="asset/new pictures/product11_1_1_1.jpg" alt="">
+                                                <span class="span-hover">office</span>
+                                                <div class="text">
+                                                    <span class="hover-hide">office</span>
+                                                    <span class="hover-show">Explore Category</span>
+                                                </div>
+                                                <div class="hoverly"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </h4>
+                            </div>
+                            <div class="item">
+                                <h4>
+                                    <div class="item-row-img">
+                                        <div class="item-row">
+                                            <a href="#"><img src="asset/new pictures/product12_1_1_1.jpg" alt="">
+
+                                                <span class="span-hover">Books</span>
+                                                <div class="text">
+                                                    <span class="hover-hide">Books</span>
+                                                    <span class="hover-show">Explore Category</span>
+                                                </div>
+                                                <div class="hoverly"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </h4>
+                            </div>
+                            <div class="item">
+                                <h4>
+                                    <div class="item-row-img">
+                                        <div class="item-row">
+                                            <a href="#"><img src="asset/new pictures/numquam-eius.jpg" alt="">
+
+                                                <span class="span-hover">Books</span>
+                                                <div class="text">
+                                                    <span class="hover-hide">Books</span>
+                                                    <span class="hover-show">Explore Category</span>
+                                                </div>
+                                                <div class="hoverly"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </h4>
+                            </div>
+                            <div class="item">
+                                <h4>
+                                    <div class="item-row-img">
+                                        <div class="item-row">
+                                            <a href="#"><img src="asset/new pictures/numquam-eius (1).jpg" alt="">
+
+                                                <span class="span-hover">Books</span>
+                                                <div class="text">
+                                                    <span class="hover-hide">Books</span>
+                                                    <span class="hover-show">Explore Category</span>
+                                                </div>
+                                                <div class="hoverly"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            dots: false,
+            autoplay: true,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                450: {
+                    items: 2
+                },
+                639: {
+                    items: 3
+                },
+                767: {
+                    items: 4
+                },
+                992: {
+                    items: 5
+                },
+                1199: {
+                    items: 6
+                },
+                1500: {
+                    items: 6
+
+                }
+            }
+        })
+    </script>
+
+
+
+    <!-- widget-block-blog stat -->
+
+    <div class="widget-blog-main">
+        <div class="container">
+            <div class="widget-blog-main-inner">
+                <div class="item-row">
+                    <div class="item-inner">
+                        <img src="asset/new pictures/image1.jpg" alt="">
+                    </div>
+                    <div class="item-text">
+                        <p>
+                            Only <span>Three</span>
+                            <br>
+                            <strong>DAYS LEFT</strong>
+                            <br>
+                            on Fashion
+                            <br>Weeks sale!
+                        </p>
+                        <a href="#">
+                            Shop Today
+                        </a>
+                    </div>
+                </div>
+                <div class="item-row">
+                    <div class="item-inner">
+                        <img src="asset/new pictures/image2.jpg" alt="">
+                    </div>
+                    <div class="item-text-bottom">
+                        <p>
+                            Get <span>Winter</span>
+                            <br>
+                            <strong>LOOKBOOK</strong>
+                            <br>
+                            With online
+                            <br>purchase
+                        </p>
+                        <a href="#">
+                            GET YOUR COPY
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- section blog stat -->
+    <div class="section-content-main">
+        <div class="container">
+            <div class="section-content-inner">
+                <div class="Category-title">
+                    <p>Featured<span> Collection</span></p>
+                </div>
+                <div class="Category-img-blog">
+                    <div class="img-row">
+                        <div class="item-row-img-top">
+                            <div class="item-row-position">
+                                <a href="#"><img src="asset/new pictures/accusantium-dolore.jpg" alt=""></a>
+                            </div>
+                            <div class="item-row-img-bottom">
+                                <a href="#"> <img src="asset/new pictures/accusantium-dolore (1).jpg" alt=""></a>
+                            </div>
+                            <ul class="hover-content">
+                                <li><i class="fa-solid fa-heart"></i></li>
+                                <li><i class="fa-solid fa-chart-simple"></i></li>
+                            </ul>
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="item-row-text">
+                            <p>Facere possimus</p>
+                            <span>$139.00</span>
+                            <a href="#">ADD TO CART</a>
+                        </div>
+                    </div>
+                    <div class="img-row">
+                        <div class="item-row-img-top">
+                            <div class="item-row-position">
+                                <a href="#"><img src="asset/new pictures/accusantium-dolore (3).jpg" alt=""></a>
+                            </div>
+                            <div class="item-row-img-bottom">
+                                <a href="#"><img src="asset/new pictures/numquam-eius.jpg" alt=""></a>
+                            </div>
+                            <ul class="hover-content">
+                                <li><i class="fa-solid fa-heart"></i></li>
+                                <li><i class="fa-solid fa-chart-simple"></i></li>
+                            </ul>
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="item-row-text">
+                            <p>Ratione voluptatem</p>
+                            <span>$299.00</span>
+                            <a href="#">ADD TO CART</a>
+                        </div>
+                    </div>
+                    <div class="img-row">
+                        <div class="item-row-img-top">
+                            <div class="item-row-position">
+                                <a href="#"><img src="asset/new pictures/product8_1_1.jpg" alt=""></a>
+                            </div>
+                            <div class="item-row-img-bottom">
+                                <a href="#"><img src="asset/new pictures/accusantium-dolore (2).jpg" alt=""></a>
+                            </div>
+                            <ul class="hover-content">
+                                <li><i class="fa-solid fa-heart"></i></li>
+                                <li><i class="fa-solid fa-chart-simple"></i></li>
+                            </ul>
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="item-row-text">
+                            <p>lure reprehenderit</p>
+                            <span>$279.00</span>
+                            <a href="#">ADD TO CART</a>
+                        </div>
+                    </div>
+                    <div class="img-row">
+                        <div class="item-row-img-top">
+                            <div class="item-row-position">
+                                <a href="#"><img src="asset/new pictures/accusantium-dolore (1).jpg" alt=""></a>
+                            </div>
+                            <div class="item-row-img-bottom">
+                                <a href="#"><img src="asset/new pictures/product4_1_1_1.jpg" alt=""></a>
+                            </div>
+                            <ul class="hover-content">
+                                <li><i class="fa-solid fa-heart"></i></li>
+                                <li><i class="fa-solid fa-chart-simple"></i></li>
+                            </ul>
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="item-row-text">
+                            <p>Voluptatem quia</p>
+                            <span>$179.00</span>
+                            <a href="#">ADD TO CART</a>
+                        </div>
+                    </div>
+                    <div class="img-row">
+                        <div class="item-row-img-top">
+                            <div class="item-row-position">
+                                <a href="#"><img src="asset/new pictures/product4_1_1_1.jpg" alt=""></a>
+                            </div>
+                            <div class="item-row-img-bottom">
+                                <a href="#"><img src="asset/new pictures/accusantium-dolore.jpg" alt=""></a>
+                            </div>
+                            <ul class="hover-content">
+                                <li><i class="fa-solid fa-heart"></i></li>
+                                <li><i class="fa-solid fa-chart-simple"></i></li>
+                            </ul>
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="item-row-text">
+                            <p>Aliquam qumaetal</p>
+                            <span>$50.00</span>
+                            <a href="#">ADD TO CART</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="lovely-blog">
+        <div class="container">
+            <div class="lovely-blog-inner">
+                <div class="lovely-blog-text">
+                    <h2>Summer Lookbook is out now!</h2>
+                    <a href="#"><span>Get your copy</span>
+                        <i class="fa-solid fa-angles-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- products main blog -->
+
+    <div class="products-main">
+        <div class="container">
+            <div class="products-main-inner">
+                <div class="products-title">
+                    <p>New<span> Products</span></p>
+                </div>
+                <div class="products-row">
+                    <div class="img-row">
+                        <div class="item-row-img-top">
+                            <div class="item-row-position">
+                                <a href="#"><img src="asset/new pictures/product4_1_1_1.jpg" alt=""></a>
+                            </div>
+                            <div class="item-row-img-bottom">
+                                <!-- <a href="#"><img src="asset/new pictures/accusantium-dolore.jpg" alt=""></a> -->
+                            </div>
+                            <ul class="hover-content">
+                                <li><i class="fa-solid fa-heart"></i></li>
+                                <li><i class="fa-solid fa-chart-simple"></i></li>
+                            </ul>
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="item-row-text">
+                            <p>Aliquam qumaetal</p>
+                            <span>from $149.00</span>
+                            <span>To $348.00</span>
+                            <a href="#">ADD TO CART</a>
+                        </div>
+                    </div>
+                    <div class="img-row">
+                        <div class="item-row-img-top">
+                            <div class="item-row-position">
+                                <a href="#"><img src="asset/new pictures/accusantium-dolore (1).jpg" alt=""></a>
+                            </div>
+                            <div class="item-row-img-bottom">
+                                <!-- <a href="#"><img src="asset/new pictures/accusantium-dolore.jpg" alt=""></a> -->
+                            </div>
+                            <ul class="hover-content">
+                                <li><i class="fa-solid fa-heart"></i></li>
+                                <li><i class="fa-solid fa-chart-simple"></i></li>
+                            </ul>
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="item-row-text">
+                            <p>Aliquam qumaetal</p>
+                            <span>$149.00</span>
+                            <a href="#">ADD TO CART</a>
+                        </div>
+                    </div>
+                    <div class="img-row">
+                        <div class="item-row-img-top">
+                            <div class="item-row-position">
+                                <a href="#"><img src="asset/new pictures/product1_2_2.jpg" alt=""></a>
+                            </div>
+                            <div class="item-row-img-bottom">
+                                <!-- <a href="#"><img src="asset/new pictures/accusantium-dolore.jpg" alt=""></a> -->
+                            </div>
+                            <ul class="hover-content">
+                                <li><i class="fa-solid fa-heart"></i></li>
+                                <li><i class="fa-solid fa-chart-simple"></i></li>
+                            </ul>
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="item-row-text">
+                            <p>Aliquam qumaetal</p>
+                            <span>$199.00</span>
+                            <a href="#">ADD TO CART</a>
+                        </div>
+                    </div>
+                    <div class="img-row">
+                        <div class="item-row-img-top">
+                            <div class="item-row-position">
+                                <a href="#"><img src="asset/new pictures/product1_2_2.jpg" alt=""></a>
+                            </div>
+                            <div class="item-row-img-bottom">
+                                <!-- <a href="#"><img src="asset/new pictures/accusantium-dolore.jpg" alt=""></a> -->
+                            </div>
+                            <ul class="hover-content">
+                                <li><i class="fa-solid fa-heart"></i></li>
+                                <li><i class="fa-solid fa-chart-simple"></i></li>
+                            </ul>
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="item-row-text">
+                            <p>Aliquam qumaetal</p>
+                            <span>$142.00</span>
+                            <a href="#">ADD TO CART</a>
+                        </div>
+                    </div>
+                    <div class="img-row">
+                        <div class="item-row-img-top">
+                            <div class="item-row-position">
+                                <a href="#"><img src="asset/new pictures/product12_1_1_1.jpg" alt=""></a>
+                            </div>
+                            <div class="item-row-img-bottom">
+                                <!-- <a href="#"><img src="asset/new pictures/accusantium-dolore.jpg" alt=""></a> -->
+                            </div>
+                            <ul class="hover-content">
+                                <li><i class="fa-solid fa-heart"></i></li>
+                                <li><i class="fa-solid fa-chart-simple"></i></li>
+                            </ul>
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="item-row-text">
+                            <p>Aliquam qumaetal</p>
+                            <span>$452.00</span>
+                            <a href="#">ADD TO CART</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-row-bottom">
+                    <div class="img-row">
+                        <div class="item-row-img-top">
+                            <div class="item-row-position">
+                                <a href="#"><img src="asset/new pictures/numquam-eius.jpg" alt=""></a>
+                            </div>
+                            <div class="item-row-img-bottom">
+                                <!-- <a href="#"><img src="asset/new pictures/accusantium-dolore.jpg" alt=""></a> -->
+                            </div>
+                            <ul class="hover-content">
+                                <li><i class="fa-solid fa-heart"></i></li>
+                                <li><i class="fa-solid fa-chart-simple"></i></li>
+                            </ul>
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="item-row-text">
+                            <p>Aliquam qumaetal</p>
+                            <span>$123.00</span>
+                            <a href="#">ADD TO CART</a>
+                        </div>
+                    </div>
+                    <div class="img-row">
+                        <div class="item-row-img-top">
+                            <div class="item-row-position">
+                                <a href="#"><img src="asset/new pictures/accusantium-dolore.jpg" alt=""></a>
+                            </div>
+                            <div class="item-row-img-bottom">
+                                <!-- <a href="#"><img src="asset/new pictures/accusantium-dolore.jpg" alt=""></a> -->
+                            </div>
+                            <ul class="hover-content">
+                                <li><i class="fa-solid fa-heart"></i></li>
+                                <li><i class="fa-solid fa-chart-simple"></i></li>
+                            </ul>
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="item-row-text">
+                            <p>Aliquam qumaetal</p>
+                            <span>$523.00</span>
+                            <a href="#">ADD TO CART</a>
+                        </div>
+                    </div>
+                    <div class="img-row">
+                        <div class="item-row-img-top">
+                            <div class="item-row-position">
+                                <a href="#"><img src="asset/new pictures/product12_1_1_1.jpg" alt=""></a>
+                            </div>
+                            <div class="item-row-img-bottom">
+                                <!-- <a href="#"><img src="asset/new pictures/accusantium-dolore.jpg" alt=""></a> -->
+                            </div>
+                            <ul class="hover-content">
+                                <li><i class="fa-solid fa-heart"></i></li>
+                                <li><i class="fa-solid fa-chart-simple"></i></li>
+                            </ul>
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="item-row-text">
+                            <p>Aliquam qumaetal</p>
+                            <span>$123.00</span>
+                            <a href="#">ADD TO CART</a>
+                        </div>
+                    </div>
+                    <div class="img-row">
+                        <div class="item-row-img-top">
+                            <div class="item-row-position">
+                                <a href="#"><img src="asset/new pictures/accusantium-dolore (2).jpg" alt=""></a>
+                            </div>
+                            <div class="item-row-img-bottom">
+                                <!-- <a href="#"><img src="asset/new pictures/accusantium-dolore.jpg" alt=""></a> -->
+                            </div>
+                            <ul class="hover-content">
+                                <li><i class="fa-solid fa-heart"></i></li>
+                                <li><i class="fa-solid fa-chart-simple"></i></li>
+                            </ul>
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="item-row-text">
+                            <p>Aliquam qumaetal</p>
+                            <span>$50.00</span>
+                            <a href="#">ADD TO CART</a>
+                        </div>
+                    </div>
+                    <div class="img-row">
+                        <div class="item-row-img-top">
+                            <div class="item-row-position">
+                                <a href="#"><img src="asset/new pictures/product1_2_2.jpg" alt=""></a>
+                            </div>
+                            <div class="item-row-img-bottom">
+                                <!-- <a href="#"><img src="asset/new pictures/accusantium-dolore.jpg" alt=""></a> -->
+                            </div>
+                            <ul class="hover-content">
+                                <li><i class="fa-solid fa-heart"></i></li>
+                                <li><i class="fa-solid fa-chart-simple"></i></li>
+                            </ul>
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="item-row-text">
+                            <p>Aliquam qumaetal</p>
+                            <span> at low as $129.00</span>
+                            <a href="#">ADD TO CART</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- cr wrapper stat -->
+
+    <div class="cr-wepper">
+        <div class="container">
+            <div class="ce-wepper-inner">
+                <div class="ce-wepper-img">
+                    <img src="asset/new pictures/testmonial-image.png" alt="">
+                    <span>Jone Doe</span>
+                    <p>United States</p>
+                </div>
+                <div class="ce-wepper-text">
+                    <img src="asset/new pictures/testmonial-icon.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis saepe sed voluptatem, ullam est
+                        quidem, quasi ex dolor error atque accusamus distinctio ratione. Eligendi ut, aliquam voluptatem
+                        dolorum iste porro!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Latest Blogs stat -->
+    <div class="Latest-Blogs-main">
+        <div class="container">
+            <div class="Latest-Blogs-inner">
+                <div class="Latest-Blogs-title">
+                    <span>Latest <i>Blogs</i></span>
+                </div>
+                <div class="Latest-Blogs-img">
+                    <div class="Latest-Blogs-row">
+                        <div class="Latest-Blogs-item-img">
+                            <img src="asset/new pictures/image_32.png" alt="">
+                            <p>Jule 30,2020</p>
+                        </div>
+                        <div class="Latest-Blogs-item-inner">
+                            <a href="#">consectetur adipisci velit sed quia non numquam eius.</a>
+                            <div class="post-text">
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                    doloremque. Laudantium totam rem aperiam eaque ipsa quae inventore
+                                </p>
+                            </div>
+                            <div class="add">
+                                <a href="#">READ MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Latest-Blogs-row">
+                        <div class="Latest-Blogs-item-img">
+                            <img src="asset/new pictures/image_22.png" alt="">
+                            <p>Jule 22,2020</p>
+                        </div>
+                        <div class="Latest-Blogs-item-inner">
+                            <a href="#">Ut labore dolore voluptatem aliquam quaerat magnam.</a>
+                            <div class="post-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+                            <div class="add">
+                                <a href="#">READ MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Latest-Blogs-row">
+                        <div class="Latest-Blogs-item-img">
+                            <img src="asset/new pictures/image_1.png" alt="">
+                            <p>Jule 22,2020</p>
+                        </div>
+                        <div class="Latest-Blogs-item-inner">
+                            <a href="#"> Neque porro quisquam est qui dolorem ipsum.</a>
+                            <div class="post-text">
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident sunt in culpa.
+                                </p>
+                            </div>
+                            <div class="add">
+                                <a href="#">READ MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- brands wrapper stat -->
+
+    <div class="brands-wrapper-main">
+        <div class="container">
+            <div class="brands-wrapper-inner">
+                <div class="brands-wrapper-title">
+                    <span>
+                        Shop By <i>Brand</i>
+                    </span>
+                </div>
+                <div class="brands-wrapper-img">
+                    <img src="asset/new pictures/brand3.png" alt="brand-img">
+                    <img src="asset/new pictures/brand4.png" alt="brand-img">
+                    <img src="asset/new pictures/brand5.png" alt="brand-img">
+                    <img src="asset/new pictures/1.jpg" alt="brand-img">
+                    <img src="asset/new pictures/brand2.png" alt="brand-img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- footer-top-blogs stat-->
+
+    <div class="footer-top-blogs">
+        <div class="container">
+            <div class="footer-top-blogs-inner">
+                <div class="footer-top-blogs-title">
+                    <span>Latest From <i>Etrend</i></span>
+                </div>
+                <div class="footer-top-blogs-input">
+                    <p> Subscribe to our newsletter to get exclusive discounts and new theme launches right in your
+                        inbox.</p>
+                    <div class="block-input">
+                        <input type="text" placeholder="Enter your email address">
+                        <a href="#">SEND</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- footer star -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-wrapper">
+                    <div class="footer-top">
+                        <div class="footer-top-main">
+                            <div class="footer-top-row">
+                                <div class="item-inner">
+                                    <div>GET IN TOUCH </div>
+                                    <p class="pp">+</p>
+                                    <div class="mail-buttom">
+                                        <ul>
+                                            <li class="text-top">
+                                                <i class="fa-solid fa-location-dot"></i>
+                                                <span>Address</span>
+                                                <p>123 Street, City, London</p>
+                                            </li>
+                                            <li class="text-middle">
+                                                <i class="fa-solid fa-phone"></i>
+                                                <span>Phone</span>
+                                                <p>(123) 456 7890</p>
+                                            </li>
+                                            <li class="text-buttom">
+                                                <i class="fa-solid fa-envelope"></i>
+                                                <span>Mail Us </span>
+                                                <p>mail@example.com</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer-top-row">
+                                <div class="item-inner">
+                                    <span class="account">MY ACCOUNT</span>
+                                    <p class="pp">+</p>
+                                    <ul>
+                                        <li><a href="#">My account</a></li>
+                                        <li><a href="#">Login</a></li>
+                                        <li><a href="#">Shoping Cart</a></li>
+                                        <li><a href="#">My Wishlist</a></li>
+                                        <li><a href="#">Track Order</a></li>
+                                        <li><a href="#">Return Policy</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer-top-row">
+                                <div class="item-inner">
+                                    <span class="link">QUICK LINKS</span>
+                                    <p class="pp">+</p>
+                                    <ul>
+                                        <li><a href="#">Privacy and Cookie Policy</a></li>
+                                        <li><a href="#">Search Terms</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="#"> Orders and Returns</a></li>
+                                        <li><a href="#">Advanced Search</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer-top-row">
+                                <div class="item-inner">
+                                    <span class="customer">CUSTOMER SERVICES</span>
+                                    <p class="pp">+</p>
+                                    <ul>
+                                        <li><a href="#">Phone: +123-456-7890</a></li>
+                                        <li><a href="#">Live Chat</a></li>
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Termes & Condition</a></li>
+                                        <li><a href="#">Customer Relation</a></li>
+                                        <li><a href="#">Privacy Policy </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-border"></div>
+                    <div class="footer-center">
+                        <div class="center-logo">
+                            <img src="asset/new pictures/english-footer-logo.png" alt="">
+                        </div>
+                        <div class="center-trxt">
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                                architecto beatae vitae dicta sunt explicabo.</p>
+                        </div>
+                        <div class="buttom-img">
+                            <ul>
+                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-vimeo-v"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-border2"></div>
+                    <div class="footer-buttom">
+                        <div class="text">
+                            <p>copyright © Etrend 2020. All right reserved.</p>
+                        </div>
+                        <div class="img">
+                            <img src="asset/new pictures/amex.png" alt="">
+                            <img src="asset/new pictures/mastercard.png" alt="">
+                            <img src="asset/new pictures/paypal.png" alt="">
+                            <img src="asset/new pictures/visa.png" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- body icon stat -->
+
+    <div class="body-icon">
+        <a href="#"> <i class="fa-brands fa-whatsapp"></i> </a>
+    </div>
+
+</body>
+
+</html>
